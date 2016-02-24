@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+
 @class Media;
 
 typedef void (^NewItemCompletionBlock)(NSError *error);
@@ -16,6 +17,9 @@ typedef void (^NewItemCompletionBlock)(NSError *error);
 
 +(instancetype) sharedInstance;
 @property (nonatomic, strong, readonly) NSArray *mediaItems;
+@property (nonatomic, strong, readonly) NSString *accessToken;
+
++ (NSString *) instagramClientID;
 
 - (void) deleteMediaItem:(Media *)item;
 
