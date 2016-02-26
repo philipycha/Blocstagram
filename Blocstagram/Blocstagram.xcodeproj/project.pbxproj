@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1541791B1C7FBF2E003A30B9 /* MediaFullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1541791A1C7FBF2E003A30B9 /* MediaFullScreenViewController.m */; };
+		15C6A8681C7AD6FB00D001D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8671C7AD6FB00D001D4 /* main.m */; };
+		15C6A86B1C7AD6FB00D001D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A86A1C7AD6FB00D001D4 /* AppDelegate.m */; };
+		15C6A8711C7AD6FB00D001D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A86F1C7AD6FB00D001D4 /* Main.storyboard */; };
+		15C6A8731C7AD6FB00D001D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8721C7AD6FB00D001D4 /* Images.xcassets */; };
+		15C6A8761C7AD6FB00D001D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8741C7AD6FB00D001D4 /* LaunchScreen.xib */; };
+		15C6A8821C7AD6FB00D001D4 /* BlocstagramTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8811C7AD6FB00D001D4 /* BlocstagramTests.m */; };
+		15C6A8AA1C7AD87E00D001D4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A01C7AD87E00D001D4 /* 4.jpg */; };
+		15C6A8AB1C7AD87E00D001D4 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A11C7AD87E00D001D4 /* 5.jpg */; };
+		15C6A8AC1C7AD87E00D001D4 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A21C7AD87E00D001D4 /* 6.jpg */; };
+		15C6A8AD1C7AD87E00D001D4 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A31C7AD87E00D001D4 /* 7.jpg */; };
+		15C6A8AE1C7AD87E00D001D4 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A41C7AD87E00D001D4 /* 8.jpg */; };
+		15C6A8AF1C7AD87E00D001D4 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A51C7AD87E00D001D4 /* 9.jpg */; };
+		15C6A8B01C7AD87E00D001D4 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A61C7AD87E00D001D4 /* 10.jpg */; };
+		15C6A8B11C7AD87E00D001D4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A71C7AD87E00D001D4 /* 1.jpg */; };
+		15C6A8B21C7AD87E00D001D4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A81C7AD87E00D001D4 /* 2.jpg */; };
+		15C6A8B31C7AD87E00D001D4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A8A91C7AD87E00D001D4 /* 3.jpg */; };
+		15C6A8B61C7AD8EE00D001D4 /* ImagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8B51C7AD8EE00D001D4 /* ImagesTableViewController.m */; };
+		15C6A8B91C7AEDB400D001D4 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8B81C7AEDB400D001D4 /* User.m */; };
+		15C6A8BC1C7AEDFE00D001D4 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8BB1C7AEDFE00D001D4 /* Media.m */; };
+		15C6A8BF1C7AEE5400D001D4 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8BE1C7AEE5400D001D4 /* Comment.m */; };
+		15C6A8C21C7AEF0400D001D4 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8C11C7AEF0400D001D4 /* DataSource.m */; };
+		15C6A8C51C7B741000D001D4 /* MediaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8C41C7B741000D001D4 /* MediaTableViewCell.m */; };
+		15C6A8C81C7D37A100D001D4 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A8C71C7D37A100D001D4 /* LoginViewController.m */; };
+		1C8AF150D22C76B54324C4D8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7F86C43B26BD0E33FA6770 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C6A87C1C7AD6FB00D001D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C6A85A1C7AD6FB00D001D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C6A8611C7AD6FB00D001D4;
+			remoteInfo = Blocstagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		154179191C7FBF2E003A30B9 /* MediaFullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaFullScreenViewController.h; sourceTree = "<group>"; };
+		1541791A1C7FBF2E003A30B9 /* MediaFullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaFullScreenViewController.m; sourceTree = "<group>"; };
+		15C6A8621C7AD6FB00D001D4 /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C6A8661C7AD6FB00D001D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C6A8671C7AD6FB00D001D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15C6A8691C7AD6FB00D001D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15C6A86A1C7AD6FB00D001D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15C6A8701C7AD6FB00D001D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C6A8721C7AD6FB00D001D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15C6A8751C7AD6FB00D001D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15C6A87B1C7AD6FB00D001D4 /* BlocstagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocstagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C6A8801C7AD6FB00D001D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C6A8811C7AD6FB00D001D4 /* BlocstagramTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocstagramTests.m; sourceTree = "<group>"; };
+		15C6A8A01C7AD87E00D001D4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = "../../../Downloads/blocstagram-sample-images/4.jpg"; sourceTree = "<group>"; };
+		15C6A8A11C7AD87E00D001D4 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = "../../../Downloads/blocstagram-sample-images/5.jpg"; sourceTree = "<group>"; };
+		15C6A8A21C7AD87E00D001D4 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 6.jpg; path = "../../../Downloads/blocstagram-sample-images/6.jpg"; sourceTree = "<group>"; };
+		15C6A8A31C7AD87E00D001D4 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 7.jpg; path = "../../../Downloads/blocstagram-sample-images/7.jpg"; sourceTree = "<group>"; };
+		15C6A8A41C7AD87E00D001D4 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 8.jpg; path = "../../../Downloads/blocstagram-sample-images/8.jpg"; sourceTree = "<group>"; };
+		15C6A8A51C7AD87E00D001D4 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 9.jpg; path = "../../../Downloads/blocstagram-sample-images/9.jpg"; sourceTree = "<group>"; };
+		15C6A8A61C7AD87E00D001D4 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpg; path = "../../../Downloads/blocstagram-sample-images/10.jpg"; sourceTree = "<group>"; };
+		15C6A8A71C7AD87E00D001D4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = "../../../Downloads/blocstagram-sample-images/1.jpg"; sourceTree = "<group>"; };
+		15C6A8A81C7AD87E00D001D4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = "../../../Downloads/blocstagram-sample-images/2.jpg"; sourceTree = "<group>"; };
+		15C6A8A91C7AD87E00D001D4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = "../../../Downloads/blocstagram-sample-images/3.jpg"; sourceTree = "<group>"; };
+		15C6A8B41C7AD8EE00D001D4 /* ImagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesTableViewController.h; sourceTree = "<group>"; };
+		15C6A8B51C7AD8EE00D001D4 /* ImagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesTableViewController.m; sourceTree = "<group>"; };
+		15C6A8B71C7AEDB400D001D4 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		15C6A8B81C7AEDB400D001D4 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		15C6A8BA1C7AEDFE00D001D4 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		15C6A8BB1C7AEDFE00D001D4 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		15C6A8BD1C7AEE5400D001D4 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		15C6A8BE1C7AEE5400D001D4 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		15C6A8C01C7AEF0400D001D4 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		15C6A8C11C7AEF0400D001D4 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		15C6A8C31C7B741000D001D4 /* MediaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaTableViewCell.h; sourceTree = "<group>"; };
+		15C6A8C41C7B741000D001D4 /* MediaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaTableViewCell.m; sourceTree = "<group>"; };
+		15C6A8C61C7D37A100D001D4 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		15C6A8C71C7D37A100D001D4 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		6AA666007AF811D1FE4737E7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7D97D89E2518C6E2274ACE82 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7F86C43B26BD0E33FA6770 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C6A85F1C7AD6FB00D001D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8AF150D22C76B54324C4D8 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C6A8781C7AD6FB00D001D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15C6A8591C7AD6FB00D001D4 = {
+			isa = PBXGroup;
+			children = (
+				15C6A8641C7AD6FB00D001D4 /* Blocstagram */,
+				15C6A87E1C7AD6FB00D001D4 /* BlocstagramTests */,
+				15C6A8631C7AD6FB00D001D4 /* Products */,
+				3629AE69763595AF925ADC55 /* Pods */,
+				D8CE48CBC330F0EC711A0287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15C6A8631C7AD6FB00D001D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C6A8621C7AD6FB00D001D4 /* Blocstagram.app */,
+				15C6A87B1C7AD6FB00D001D4 /* BlocstagramTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C6A8641C7AD6FB00D001D4 /* Blocstagram */ = {
+			isa = PBXGroup;
+			children = (
+				154179191C7FBF2E003A30B9 /* MediaFullScreenViewController.h */,
+				1541791A1C7FBF2E003A30B9 /* MediaFullScreenViewController.m */,
+				15C6A8B41C7AD8EE00D001D4 /* ImagesTableViewController.h */,
+				15C6A8B51C7AD8EE00D001D4 /* ImagesTableViewController.m */,
+				15C6A8C61C7D37A100D001D4 /* LoginViewController.h */,
+				15C6A8C71C7D37A100D001D4 /* LoginViewController.m */,
+				15C6A8C31C7B741000D001D4 /* MediaTableViewCell.h */,
+				15C6A8C41C7B741000D001D4 /* MediaTableViewCell.m */,
+				15C6A8C01C7AEF0400D001D4 /* DataSource.h */,
+				15C6A8C11C7AEF0400D001D4 /* DataSource.m */,
+				15C6A8BD1C7AEE5400D001D4 /* Comment.h */,
+				15C6A8BE1C7AEE5400D001D4 /* Comment.m */,
+				15C6A8BA1C7AEDFE00D001D4 /* Media.h */,
+				15C6A8BB1C7AEDFE00D001D4 /* Media.m */,
+				15C6A8B71C7AEDB400D001D4 /* User.h */,
+				15C6A8B81C7AEDB400D001D4 /* User.m */,
+				15C6A8691C7AD6FB00D001D4 /* AppDelegate.h */,
+				15C6A86A1C7AD6FB00D001D4 /* AppDelegate.m */,
+				15C6A86F1C7AD6FB00D001D4 /* Main.storyboard */,
+				15C6A8721C7AD6FB00D001D4 /* Images.xcassets */,
+				15C6A8741C7AD6FB00D001D4 /* LaunchScreen.xib */,
+				15C6A88B1C7AD7F200D001D4 /* Images */,
+				15C6A8651C7AD6FB00D001D4 /* Supporting Files */,
+			);
+			path = Blocstagram;
+			sourceTree = "<group>";
+		};
+		15C6A8651C7AD6FB00D001D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C6A8661C7AD6FB00D001D4 /* Info.plist */,
+				15C6A8671C7AD6FB00D001D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C6A87E1C7AD6FB00D001D4 /* BlocstagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C6A8811C7AD6FB00D001D4 /* BlocstagramTests.m */,
+				15C6A87F1C7AD6FB00D001D4 /* Supporting Files */,
+			);
+			path = BlocstagramTests;
+			sourceTree = "<group>";
+		};
+		15C6A87F1C7AD6FB00D001D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15C6A8801C7AD6FB00D001D4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15C6A88B1C7AD7F200D001D4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15C6A8A71C7AD87E00D001D4 /* 1.jpg */,
+				15C6A8A81C7AD87E00D001D4 /* 2.jpg */,
+				15C6A8A91C7AD87E00D001D4 /* 3.jpg */,
+				15C6A8A01C7AD87E00D001D4 /* 4.jpg */,
+				15C6A8A11C7AD87E00D001D4 /* 5.jpg */,
+				15C6A8A21C7AD87E00D001D4 /* 6.jpg */,
+				15C6A8A31C7AD87E00D001D4 /* 7.jpg */,
+				15C6A8A41C7AD87E00D001D4 /* 8.jpg */,
+				15C6A8A51C7AD87E00D001D4 /* 9.jpg */,
+				15C6A8A61C7AD87E00D001D4 /* 10.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3629AE69763595AF925ADC55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D97D89E2518C6E2274ACE82 /* Pods.debug.xcconfig */,
+				6AA666007AF811D1FE4737E7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8CE48CBC330F0EC711A0287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB7F86C43B26BD0E33FA6770 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C6A8611C7AD6FB00D001D4 /* Blocstagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C6A8851C7AD6FB00D001D4 /* Build configuration list for PBXNativeTarget "Blocstagram" */;
+			buildPhases = (
+				ABA181D4876D1A755CA663C8 /* Check Pods Manifest.lock */,
+				15C6A85E1C7AD6FB00D001D4 /* Sources */,
+				15C6A85F1C7AD6FB00D001D4 /* Frameworks */,
+				15C6A8601C7AD6FB00D001D4 /* Resources */,
+				3A17544D597BC96163E42013 /* Embed Pods Frameworks */,
+				053E7F3E6EF714E061D9ADFC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blocstagram;
+			productName = Blocstagram;
+			productReference = 15C6A8621C7AD6FB00D001D4 /* Blocstagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C6A87A1C7AD6FB00D001D4 /* BlocstagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C6A8881C7AD6FB00D001D4 /* Build configuration list for PBXNativeTarget "BlocstagramTests" */;
+			buildPhases = (
+				15C6A8771C7AD6FB00D001D4 /* Sources */,
+				15C6A8781C7AD6FB00D001D4 /* Frameworks */,
+				15C6A8791C7AD6FB00D001D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C6A87D1C7AD6FB00D001D4 /* PBXTargetDependency */,
+			);
+			name = BlocstagramTests;
+			productName = BlocstagramTests;
+			productReference = 15C6A87B1C7AD6FB00D001D4 /* BlocstagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C6A85A1C7AD6FB00D001D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Bloc;
+				TargetAttributes = {
+					15C6A8611C7AD6FB00D001D4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					15C6A87A1C7AD6FB00D001D4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 15C6A8611C7AD6FB00D001D4;
+					};
+				};
+			};
+			buildConfigurationList = 15C6A85D1C7AD6FB00D001D4 /* Build configuration list for PBXProject "Blocstagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C6A8591C7AD6FB00D001D4;
+			productRefGroup = 15C6A8631C7AD6FB00D001D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C6A8611C7AD6FB00D001D4 /* Blocstagram */,
+				15C6A87A1C7AD6FB00D001D4 /* BlocstagramTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C6A8601C7AD6FB00D001D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C6A8B11C7AD87E00D001D4 /* 1.jpg in Resources */,
+				15C6A8B01C7AD87E00D001D4 /* 10.jpg in Resources */,
+				15C6A8AF1C7AD87E00D001D4 /* 9.jpg in Resources */,
+				15C6A8AC1C7AD87E00D001D4 /* 6.jpg in Resources */,
+				15C6A8B31C7AD87E00D001D4 /* 3.jpg in Resources */,
+				15C6A8AA1C7AD87E00D001D4 /* 4.jpg in Resources */,
+				15C6A8AB1C7AD87E00D001D4 /* 5.jpg in Resources */,
+				15C6A8B21C7AD87E00D001D4 /* 2.jpg in Resources */,
+				15C6A8AD1C7AD87E00D001D4 /* 7.jpg in Resources */,
+				15C6A8AE1C7AD87E00D001D4 /* 8.jpg in Resources */,
+				15C6A8711C7AD6FB00D001D4 /* Main.storyboard in Resources */,
+				15C6A8761C7AD6FB00D001D4 /* LaunchScreen.xib in Resources */,
+				15C6A8731C7AD6FB00D001D4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C6A8791C7AD6FB00D001D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		053E7F3E6EF714E061D9ADFC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A17544D597BC96163E42013 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABA181D4876D1A755CA663C8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C6A85E1C7AD6FB00D001D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1541791B1C7FBF2E003A30B9 /* MediaFullScreenViewController.m in Sources */,
+				15C6A8B91C7AEDB400D001D4 /* User.m in Sources */,
+				15C6A8BF1C7AEE5400D001D4 /* Comment.m in Sources */,
+				15C6A8C51C7B741000D001D4 /* MediaTableViewCell.m in Sources */,
+				15C6A8BC1C7AEDFE00D001D4 /* Media.m in Sources */,
+				15C6A86B1C7AD6FB00D001D4 /* AppDelegate.m in Sources */,
+				15C6A8C81C7D37A100D001D4 /* LoginViewController.m in Sources */,
+				15C6A8C21C7AEF0400D001D4 /* DataSource.m in Sources */,
+				15C6A8681C7AD6FB00D001D4 /* main.m in Sources */,
+				15C6A8B61C7AD8EE00D001D4 /* ImagesTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C6A8771C7AD6FB00D001D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C6A8821C7AD6FB00D001D4 /* BlocstagramTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C6A87D1C7AD6FB00D001D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C6A8611C7AD6FB00D001D4 /* Blocstagram */;
+			targetProxy = 15C6A87C1C7AD6FB00D001D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15C6A86F1C7AD6FB00D001D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C6A8701C7AD6FB00D001D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15C6A8741C7AD6FB00D001D4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C6A8751C7AD6FB00D001D4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C6A8831C7AD6FB00D001D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C6A8841C7AD6FB00D001D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C6A8861C7AD6FB00D001D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D97D89E2518C6E2274ACE82 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blocstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C6A8871C7AD6FB00D001D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AA666007AF811D1FE4737E7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Blocstagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15C6A8891C7AD6FB00D001D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlocstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blocstagram.app/Blocstagram";
+			};
+			name = Debug;
+		};
+		15C6A88A1C7AD6FB00D001D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlocstagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blocstagram.app/Blocstagram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C6A85D1C7AD6FB00D001D4 /* Build configuration list for PBXProject "Blocstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C6A8831C7AD6FB00D001D4 /* Debug */,
+				15C6A8841C7AD6FB00D001D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C6A8851C7AD6FB00D001D4 /* Build configuration list for PBXNativeTarget "Blocstagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C6A8861C7AD6FB00D001D4 /* Debug */,
+				15C6A8871C7AD6FB00D001D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C6A8881C7AD6FB00D001D4 /* Build configuration list for PBXNativeTarget "BlocstagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C6A8891C7AD6FB00D001D4 /* Debug */,
+				15C6A88A1C7AD6FB00D001D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C6A85A1C7AD6FB00D001D4 /* Project object */;
+}
