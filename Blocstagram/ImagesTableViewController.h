@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Media;
 
 @interface ImagesTableViewController : UITableViewController
 
 @property (nonatomic, strong) NSMutableArray *images;
-
+- (void) showShareSheet:(Media *)mediaItem ;
 
 @end

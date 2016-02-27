@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 @class Media;
 
 typedef void (^NewItemCompletionBlock)(NSError *error);
@@ -26,5 +25,7 @@ typedef void (^NewItemCompletionBlock)(NSError *error);
 - (void) requestNewItemsWithCompletionHandler:(NewItemCompletionBlock)completionHandler;
 
 - (void) requestOldItemsWithCompletionHandler:(NewItemCompletionBlock)completionHandler;
+
+- (void) downloadImageForMediaItem:(Media *)mediaItem;
 
 @end
